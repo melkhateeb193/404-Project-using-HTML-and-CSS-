@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* font-family: 'Inconsolata', monospace; */
+/* font-family: 'Montserrat', sans-serif; */
+
+
+*{
+font-family: 'Space Mono', monospace;
+}
+.Logo{
+    font-family: 'Inconsolata', monospace; 
+    font-size: 24px
+}
+body {
+    height: 100vh;
+    background: #FFFFFF;
+}
+h1 {
+    line-height: 70px;
+    font-size: 64px;
+}
+h2 {
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    margin: 40px 0 ;
+    line-height: 36px;
+}
+.HOMEBTN{
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    border: none;
+    color: white;
+}
+
+@media (max-width:1000px) {
+    .row.container-fluid.py-5 {
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        margin: 20px 0 0 0 !important;
+    }
+    .col-md-5.d-flex.flex-column.justify-content-center.px-5 {
+        padding: 10px !important;
+    }
+    .w-75.h2Box{
+        width: 100% !important;
+    }
+    h1 {
+        font-size: 41px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
